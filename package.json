@@ -1,0 +1,22 @@
+{
+  "name": "olliebourne.com",
+  "version": "1.0.0",
+  "description": "The one and only",
+  "main": "index.js",
+  "author": "Oliver Bourne",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist/ && parcel build index.html",
+    "start": "parcel index.html",
+    "lint": "eslint \"**/*.{js,jsx}\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.18.2"
+  }
+}

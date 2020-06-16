@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ollie Bourne Build Websites</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+  <body>
+    <main id="root">
+      <div
+        id="emoji-grid-container"
+        class="emoji-grid-container"
+        role="presentation"
+        aria-label="A grid of random emojis"
+      ></div>
+
+      <div class="h1-container">
+        <h1 class="h1">
+          <span class="h1-line-a">Ollie</span>
+          <br />
+          <span class="h1-line-b">Bourne</span> <br />
+          <span class="h1-line-a">Makes</span> <br />
+          <span class="h1-line-b">Websites</span>
+        </h1>
+      </div>
+
+      <nav class="bottom-nav">
+        <a href="mailto:hello@olliebourne.com">Email</a>
+        <a href="https://twitter.com/oliverbourne">Twitter</a>
+        <a href="https://github.com/obourne">GitHub</a>
+        <a href="https://www.linkedin.com/in/oliverbourne/">LinkedIn</a>
+        <div class="emoji-size-input-container">
+          <label for="emoji-size-input" class="emoji-size-label">
+            Emoji size:
+          </label>
+          <input
+            id="emoji-size-input"
+            class="emoji-size-input"
+            type="range"
+            min="10"
+            max="100"
+            value="50"
+            step="10"
+            aria-controls="emoji-grid-container"
+          />
+        </div>
+      </nav>
+    </main>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
