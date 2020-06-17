@@ -159,15 +159,10 @@ body,
   transform: rotate(-10deg);
   margin-top: -1rem;
   line-height: 1.5;
-}
-
-.h1-line-a {
-  color: var(--hotpink);
+  color: #333;
   text-shadow: 0.1em 0.1em var(--aquamarine);
 }
 
 .h1-line-b {
   padding-left: 1.5em;
-  color: var(--aquamarine);
-  text-shadow: 0.1em 0.1em var(--hotpink);
 }
